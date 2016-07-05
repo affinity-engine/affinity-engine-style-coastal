@@ -1,0 +1,35 @@
+$ae-coastal-primary-color: #009393 !default;
+$ae-coastal-secondary-color: #00585F !default;
+$ae-coastal-highlight-color: #FF3800 !default;
+$ae-coastal-neutral-color: #FFFCC4 !default;
+
+$ae-coastal-border-style: $ae-default-border-style !default;
+$ae-coastal-border-color: $ae-coastal-secondary-color !default;
+$ae-coastal-background: $ae-coastal-primary-color !default;
+$ae-coastal-color: $ae-coastal-neutral-color !default;
+
+$ae-button-coastal-border-style: $ae-default-border-style !default;
+
+$ae-button-coastal-hover-background-color: $ae-coastal-highlight-color !default;
+
+$ae-input-coastal-background-color: $ae-coastal-neutral-color !default;
+$ae-input-coastal-color: $ae-coastal-primary-color !default;
+$ae-input-coastal-border-color: $ae-coastal-secondary-color !default;
+$ae-input-coastal-border-style: $ae-button-coastal-border-style !default;
+
+$ae-input-coastal-focus-border-color: $ae-coastal-highlight-color !default;
+
+// menu
+$ae-menu-coastal-background-color: $ae-coastal-secondary-color !default;
+$ae-menu-coastal-opacity: $ae-menu-opacity !default;
+
+$ae-menu-header-coastal-font-family: $ae-menu-header-font-family !default;
+
+$ae-menu-option-coastal-font-weight: $ae-menu-option-font-weight !default;
+$ae-menu-option-coastal-font-family: $ae-menu-option-font-family !default;
+
+// text
+$ae-text-coastal-opacity: $ae-text-opacity !default;
+$ae-text-coastal-font-family: $ae-text-font-family !default;
+$ae-text-caption-coastal-font-family: $ae-text-caption-font-family !default;
+$ae-text-caption-coastal-font-weight: bold !default;
