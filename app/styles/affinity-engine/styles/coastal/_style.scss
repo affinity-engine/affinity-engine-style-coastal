@@ -22,7 +22,7 @@
   .ae-input {
     @include ae-highlight($ae-coastal-highlight-color);
     border-color: $ae-input-coastal-border-color;
-    border-style: $ae-input-ember-border-style;
+    border-style: $ae-input-coastal-border-style;
     background: $ae-input-coastal-background-color;
     color: $ae-input-coastal-color;
 
