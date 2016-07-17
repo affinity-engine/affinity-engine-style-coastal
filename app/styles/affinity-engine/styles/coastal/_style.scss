@@ -32,50 +32,40 @@
   }
 }
 
-$ae-menu-included: false !default;
-$ae-menu-bar-included: false !default;
-$ae-text-included: false !default;
+.ae-menu.ae-coastal {
+  @extend .ae-coastal;
 
-@if ($ae-menu-included == true) {
-  .ae-menu.ae-coastal {
-    @extend .ae-coastal;
+  background-color: $ae-menu-coastal-background-color;
+  opacity: $ae-menu-coastal-opacity;
 
-    background-color: $ae-menu-coastal-background-color;
-    opacity: $ae-menu-coastal-opacity;
+  .ae-menu-header {
+    @include ae-highlight($ae-coastal-highlight-color);
+    font-family: $ae-menu-header-coastal-font-family;
+  }
 
-    .ae-menu-header {
-      @include ae-highlight($ae-coastal-highlight-color);
-      font-family: $ae-menu-header-coastal-font-family;
-    }
-
-    .ember-columnar-menu-option-button {
-      font-weight: $ae-menu-option-coastal-font-weight;
-      font-family: $ae-menu-option-coastal-font-family;
-    }
+  .ember-columnar-menu-option-button {
+    font-weight: $ae-menu-option-coastal-font-weight;
+    font-family: $ae-menu-option-coastal-font-family;
   }
 }
 
-@if ($ae-menu-bar-included == true) {
-  .ae-menu-bar.ae-coastal {
-    @extend .ae-coastal;
-  }
+.ae-menu-bar.ae-coastal {
+  @extend .ae-coastal;
 }
 
-@if ($ae-text-included == true) {
-  .ae-text.ae-coastal {
-    opacity: $ae-text-coastal-opacity;
-    font-family: $ae-text-coastal-font-family;
+.ae-text.ae-coastal {
+  opacity: $ae-text-coastal-opacity;
+  font-family: $ae-text-coastal-font-family;
 
-    .ae-text-caption {
-      @extend .ae-coastal;
-      @include ae-highlight($ae-coastal-highlight-color);
+  .ae-text-caption {
+    @extend .ae-coastal;
+    @include ae-highlight($ae-coastal-highlight-color);
 
-      font-family: $ae-text-caption-coastal-font-family;
-      font-weight: $ae-text-caption-coastal-font-weight;
-    }
+    font-family: $ae-text-caption-coastal-font-family;
+    font-weight: $ae-text-caption-coastal-font-weight;
+  }
 
-    .ae-text, .lxl-letter {
-      @include ae-highlight($ae-coastal-highlight-color);
-    }
+  .ae-text, .lxl-letter {
+    @include ae-highlight($ae-coastal-highlight-color);
   }
 }
