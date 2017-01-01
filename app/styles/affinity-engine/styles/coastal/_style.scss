@@ -38,9 +38,9 @@
   background-color: $ae-menu-coastal-background-color;
   opacity: $ae-menu-coastal-opacity;
 
-  .ae-menu-header {
+  .ae-menu-text {
     @include ae-highlight($ae-coastal-highlight-color);
-    font-family: $ae-menu-header-coastal-font-family;
+    font-family: $ae-menu-text-coastal-font-family;
   }
 
   .ember-flex-menu-option-button {
