@@ -19,7 +19,7 @@
     }
   }
 
-  .ae-input {
+  .ae-input, .ae-input-accept {
     @include ae-highlight($ae-coastal-highlight-color);
     border-color: $ae-input-coastal-border-color;
     border-style: $ae-input-coastal-border-style;
