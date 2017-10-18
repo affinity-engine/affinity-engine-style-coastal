@@ -19,12 +19,25 @@
     }
   }
 
+  .ember-flex-menu-option.selected {
+    button {
+      background-color: $ae-button-coastal-hover-background-color;
+
+      &:hover, &:focus {
+        background-color: $ae-button-coastal-selected-background-color;
+        border-color: $ae-button-coastal-selected-border-color;
+        color: $ae-button-coastal-selected-color;
+      }
+    }
+  }
+
   .ae-input, .ae-input-accept {
     @include ae-highlight($ae-coastal-highlight-color);
     border-color: $ae-input-coastal-border-color;
     border-style: $ae-input-coastal-border-style;
     background: $ae-input-coastal-background-color;
     color: $ae-input-coastal-color;
+    box-shadow: $ae-input-coastal-box-shadow;
 
     &:focus {
       border-color: $ae-input-coastal-focus-border-color;

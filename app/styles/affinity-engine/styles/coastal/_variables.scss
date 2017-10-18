@@ -12,10 +12,15 @@ $ae-button-coastal-border-style: $ae-default-border-style !default;
 
 $ae-button-coastal-hover-background-color: $ae-coastal-highlight-color !default;
 
+$ae-button-coastal-selected-background-color: $ae-coastal-secondary-color !default;
+$ae-button-coastal-selected-border-color: $ae-coastal-highlight-color !default;
+$ae-button-coastal-selected-color: $ae-coastal-highlight-color !default;
+
 $ae-input-coastal-background-color: $ae-coastal-neutral-color !default;
 $ae-input-coastal-color: $ae-coastal-primary-color !default;
 $ae-input-coastal-border-color: $ae-coastal-secondary-color !default;
 $ae-input-coastal-border-style: $ae-button-coastal-border-style !default;
+$ae-input-coastal-box-shadow: none !default;
 
 $ae-input-coastal-focus-border-color: $ae-coastal-highlight-color !default;
 
